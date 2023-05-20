@@ -58,12 +58,17 @@
   margin-left: 1rem;
 }
 .about .row .content > h3{
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: 20px;
   color: #D0D4D9;
 }
 .about .row .content > span{
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-left: 20px;
+  color: #D0D4D9;
+}
+.about .row .content > p{
+  font-size: 1.5rem;
   margin-left: 20px;
   color: #D0D4D9;
 }
