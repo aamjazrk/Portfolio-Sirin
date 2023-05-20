@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+/* about media queries starts*/
+@media screen and (max-width: 50px) {
+  .about .row .image {
+    margin-top: 2rem;
+  }
+
+  .about .row .image .tilt {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+  }
+
+  .about .row {
+    padding: 0.5rem;
+    margin-bottom: 7rem;
+  }
+
+  .about .row .content {
+    padding: 1rem;
+  }
+
+  .about .row .content .box-container {
+    gap: 0;
+  }
+
+}
+.about .heading{
+  color: #ffffff;
+}
+.about .heading > span{
+  color: #C71585;
+}
+.tilt {
+  height: 600px;
+  
+}
+.row{
+  display: flex;
+}
+
+.about .row .content .heading {
+  display: flex;
+  align-items: start;
+  justify-self: center;
+  margin-left: 2rem;
+}
+
+.about .row .content .heading > i{
+  padding-top: 0.5rem;
+  margin-right: 20px;
+}
+.about .row .content .heading span{
+  margin-left: 1rem;
+}
+.about .row .content > h3{
+  font-size: 3rem;
+  margin-left: 20px;
+  color: #D0D4D9;
+}
+.about .row .content > span{
+  font-size: 3rem;
+  margin-left: 20px;
+  color: #D0D4D9;
+}
+.row .content .heading {
+  size: 4rem;
+  color: #D0D4D9;
+  position: relative;
+  left: 0;
+  
+}
+
+.about .row .content p {
+  color: #D0D4D9;
+} 
+/* about media queries ends*/
+/* about section ends */
+
+
