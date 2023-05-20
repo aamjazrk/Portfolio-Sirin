@@ -1,0 +1,81 @@
+.image-contact{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.contact-icon{
+    padding: 1rem 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.contact{
+    margin-top: 4rem;
+}
+.contact .heading{
+    color: white;
+}
+
+.contact .heading span{
+    color: #C71585;
+}
+
+.contact .image-box{
+    margin: 1rem 2rem;
+}
+.contact > .container{
+    padding: 10rem;
+    margin: 6.5rem auto 0 auto;
+    /* margin-top: 2rem; */
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    max-width: 150rem;
+    gap: 20px;
+}
+
+.contact .box > h3{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.contact .box > p{
+    font-size: large;
+    font-weight: 600;
+}
+
+.contact .container .contact-detail > .share{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.contact .container .contact-detail > .share > a{
+    font-size: large;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+.contact .container .contact-detail > .share > a:first-child{
+    padding-top: 1rem;
+}
+
+.contact .container .contact-detail > .share > a > i{
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+hr.to-contact{
+    border-top: 1px solid gray;
+    width: 90%;
+    margin: 0 auto;
+    
+}
